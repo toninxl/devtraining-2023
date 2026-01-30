@@ -16,8 +16,9 @@ export class CoursesController {
 
   constructor(private readonly coursesService: CoursesService) {
     
-  }  
+  }
 
+  
   @Get()
   findAll() {
     return this.coursesService.findAll();

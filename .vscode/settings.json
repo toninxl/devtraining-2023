@@ -1,0 +1,37 @@
+{
+  // Desabilita GitHub Copilot completamente neste workspace
+  "github.copilot.enable": {
+    "*": false
+  },
+  
+  // Desabilita sugestões inline do Copilot
+  "github.copilot.editor.enableAutoCompletions": false,
+  
+  // Desabilita o autocomplete/IntelliSense do VS Code
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  
+  // Desabilita sugestões de parâmetros
+  "editor.parameterHints.enabled": false,
+  
+  // Desabilita sugestões ao digitar
+  "editor.suggestOnTriggerCharacters": false,
+  
+  // Desabilita aceitação automática de sugestões
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  
+  // Desabilita snippets
+  "editor.snippetSuggestions": "none",
+  
+  // Desabilita sugestões baseadas em palavras
+  "editor.wordBasedSuggestions": "off",
+  
+  // Desabilita hover com informações
+  "editor.hover.enabled": "off",
+  
+  // Desabilita ajuda de assinatura de funções
+  "editor.signatureHelp.enabled": false
+}
